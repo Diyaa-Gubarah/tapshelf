@@ -38,7 +38,7 @@ Follow these steps to get the development environment set up:
    npm run dev
 
 
-####Best Practices
+#### Best Practices
 In this project, I adhere to several best practices for building React applications:
 
 - Custom Components: I utilize custom components such as Box, Text, Input, and Button to maintain consistency and reusability throughout the application.
