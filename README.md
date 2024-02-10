@@ -1,6 +1,6 @@
 # Tabshelf - React TypeScript Project
 
-Tabshelf is a React TypeScript project for managing tabs.
+Tabshelf is a React TypeScript project for managing inventory.
 
 ## Getting Started
 
@@ -34,5 +34,19 @@ Follow these steps to get the development environment set up:
 
 4. Running the Project
 
-  ```bash
-  npm run dev
+   ```bash
+   npm run dev
+
+
+####Best Practices
+In this project, I adhere to several best practices for building React applications:
+
+- Custom Components: I utilize custom components such as Box, Text, Input, and Button to maintain consistency and reusability throughout the application.
+
+- Styled Components: I use styled-components library for styling our components. This allows us to write CSS directly within our JavaScript/TypeScript files, keeping styles scoped to the component and improving maintainability.
+
+- Hooks: I make extensive use of React hooks, such as useState, useEffect, useContext, etc., to manage state and side effects within our components.
+
+- Custom Hooks: I implement custom hooks, such as useModal, to encapsulate logic and share it between components, promoting code reusability and organization.
+
+- Composition: I practice composition over inheritance to create complex UI components by combining simpler components together.
