@@ -38,14 +38,7 @@ const ProductTable = () => {
   const { visibleProducts, removeItem } = useProductStore();
   const columns = visibleProducts.length
     ? Object.keys(visibleProducts[0]).slice(0, 6)
-    : [
-        "Products",
-        "Buying Price",
-        "Quantity",
-        "Threshold Value",
-        "Expiry Date",
-        "Availability",
-      ];
+    : [];
 
   return (
     <Table>
