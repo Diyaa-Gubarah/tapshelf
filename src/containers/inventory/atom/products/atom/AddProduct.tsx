@@ -65,7 +65,7 @@ const AddProduct = ({ modalRef, closeModal }: Props) => {
         closeModal();
       }
     }
-  }, [product, addItem, dispatch, closeModal]); // Depend on product, addItem, dispatch, and closeModal
+  }, [product, addItem, dispatch, closeModal]);
 
   const discard = React.useCallback(() => {
     closeModal();

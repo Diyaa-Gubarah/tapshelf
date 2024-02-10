@@ -1,4 +1,3 @@
-export { default as ProductTable } from './ProductTable'
 export { default as ProductFilters } from './ProductFilters'
 export { default as AddProduct } from './AddProduct'
 export { default as ProductTableButtons } from './ProductTableButtons'

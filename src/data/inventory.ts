@@ -1,4 +1,4 @@
-import { INVENTORY, INVENTORYS } from "../types";
+import { INVENTORYS } from "../types";
 
 export const data: INVENTORYS[] = [
     {

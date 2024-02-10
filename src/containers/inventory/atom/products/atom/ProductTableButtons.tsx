@@ -1,12 +1,11 @@
 import { Box, Button, Text } from "../../../../../components";
 
-import React from "react";
 import { useProductStore } from "../../../../../store";
 
 type Props = {};
 
 const ProductTableButtons = ({}: Props) => {
-  const { products, showNext, showPrev ,page} = useProductStore();
+  const { products, showNext, showPrev, page } = useProductStore();
 
   return (
     <Box align="center" justify="space-between" gap="lg" flex={1}>

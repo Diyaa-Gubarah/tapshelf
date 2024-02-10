@@ -28,7 +28,7 @@ const TableRow = styled.tr`
 
 const TableCell = styled.td`
   flex: 1;
-  min-width: max-content; /* Set minimum width for each cell */
+  min-width: max-content; 
   align-items: center;
   align-self: center;
 `;
