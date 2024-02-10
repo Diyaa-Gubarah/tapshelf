@@ -24,17 +24,18 @@ const TableRow = styled.tr`
   border-bottom: 1px solid #ddd;
   flex: 1;
   justify-content: space-between;
+  cursor: pointer;
 `;
 
 const TableCell = styled.td`
   flex: 1;
-  min-width: max-content; 
+  min-width: max-content;
   align-items: center;
   align-self: center;
 `;
 
 const ProductTable = () => {
-  const { visibleProducts } = useProductStore();
+  const { visibleProducts, removeItem } = useProductStore();
   const columns = visibleProducts.length
     ? Object.keys(visibleProducts[0]).slice(0, 6)
     : [
@@ -62,7 +63,7 @@ const ProductTable = () => {
         </TableHead>
         <tbody>
           {visibleProducts.map((product, index) => (
-            <TableRow key={index}>
+            <TableRow key={index} onClick={() => removeItem(product.productId)}>
               {Object.values(product)
                 .slice(0, 6)
                 .map((column) => (
