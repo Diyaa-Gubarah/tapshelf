@@ -22,7 +22,7 @@ Follow these steps to get the development environment set up:
    ```bash
    git clone https://github.com/Diyaa-Gubarah/tabshelf.git
 
-2. Navigate into the project directory: 
+2. Navigate into the project directory:
   
    ```bash
    cd tabshelf
@@ -37,8 +37,8 @@ Follow these steps to get the development environment set up:
    ```bash
    npm run dev
 
-
 #### Best Practices
+
 In this project, I adhere to several best practices for building React applications:
 
 - Custom Components: I utilize custom components such as Box, Text, Input, and Button to maintain consistency and reusability throughout the application.
@@ -52,3 +52,5 @@ In this project, I adhere to several best practices for building React applicati
 - Composition: I practice composition over inheritance to create complex UI components by combining simpler components together.
 
 - State Management with Zustand: I use Zustand as my state management library to manage global state in a simple and efficient way. Zustand provides a lightweight and easy-to-use solution for managing state in React applications.
+
+- Consistent Naming Conventions: I use a consistent naming convention for variables, functions, and components. This makes it easier to understand my code by giving meaningful names to different parts.
