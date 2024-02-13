@@ -1,6 +1,7 @@
 import { Text } from "../../../../../components";
 import styled from "styled-components";
 import { useProductStore } from "../../../../../store";
+import { useMemo } from "react";
 
 const TableContainer = styled.div`
   overflow-x: auto;
@@ -36,9 +37,11 @@ const TableCell = styled.td`
 
 const ProductTable = () => {
   const { visibleProducts, removeItem } = useProductStore();
-  const columns = visibleProducts.length
-    ? Object.keys(visibleProducts[0]).slice(0, 6)
-    : [];
+  const columns = useMemo(
+    () =>
+      visibleProducts.length ? Object.keys(visibleProducts[0]).slice(0, 6) : [],
+    [visibleProducts.length]
+  );
 
   return (
     <Table>
