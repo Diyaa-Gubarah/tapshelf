@@ -1,7 +1,7 @@
 import { Text } from "../../../../../components";
 import styled from "styled-components";
-import { useProductStore } from "../../../../../store";
 import { useMemo } from "react";
+import { useProductStore } from "../../../../../store";
 
 const TableContainer = styled.div`
   overflow-x: auto;
