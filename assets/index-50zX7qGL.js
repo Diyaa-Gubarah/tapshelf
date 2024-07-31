@@ -315,3 +315,4 @@ Error generating stack: `+o.message+`
   align-items: center;
   background: white;
 `;function my(){return w.jsxs(hy,{children:[w.jsx(ae,{fontSize:"lg",children:"Nothing to see here!"}),w.jsx(ae,{fontSize:"sm",children:w.jsx(ut,{to:"/",children:"Go to the home page"})})]})}const gy=()=>w.jsx(b0,{children:w.jsxs("div",{className:"layout",children:[w.jsx(uv,{}),w.jsxs(py,{children:[w.jsx(av,{}),w.jsxs(K0,{children:[w.jsx(Bl,{path:"/",element:w.jsx(Up,{})}),w.jsx(Bl,{path:"/inventory",element:w.jsx(dy,{})}),w.jsx(Bl,{path:"*",element:w.jsx(my,{})})]})]})]})}),vy=({})=>w.jsx(gy,{});var Pu={},mc=t0;Pu.createRoot=mc.createRoot,Pu.hydrateRoot=mc.hydrateRoot;Pu.createRoot(document.getElementById("root")).render(w.jsx(vy,{}));
+//# sourceMappingURL=index-50zX7qGL.js.map
