@@ -23,7 +23,7 @@ export const SPACING = {
 };
 
 export const IMAGES = {
-  logo_sm: "/images/logo_sm.png",
-  logo: "/images/logo.png",
-  profile: "/images/profile.png",
+  logo_sm: "tapshelf/images/logo_sm.png",
+  logo: "tapshelf/images/logo.png",
+  profile: "tapshelf/images/profile.png",
 }
